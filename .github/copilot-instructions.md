@@ -1,0 +1,10 @@
+ - [x] Verify that the copilot-instructions.md file in the .github directory is created. (created)
+ - [x] Clarify Project Requirements (Go runtime supervisor with control plane, agents, fault injection, benchmarks, determinism requirements provided by user)
+ - [x] Scaffold the Project (Go module, cmd entries, pkg skeletons, docs, benchmarks, tools created)
+ - [x] Customize the Project (implemented baseline supervisor/agent, decision engine, telemetry, replay, fault injector)
+ - [x] Install Required Extensions (none required)
+ - [x] Compile the Project (gofmt + go test ./...)
+ - [x] Create and Run Task (.vscode/tasks.json added for go test and bench)
+ - [x] Launch the Project (go run ./cmd/supervisor and go run ./cmd/agent executed)
+ - [x] Ensure Documentation is Complete (README and docs added; HTML comments removed)
+

@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "go test all",
+      "type": "shell",
+      "command": "go",
+      "args": ["test", "./..."],
+      "group": "build",
+      "problemMatcher": "$go"
+    },
+    {
+      "label": "go bench",
+      "type": "shell",
+      "command": "go",
+      "args": ["test", "./bench", "-bench", ".", "-benchmem"],
+      "group": "test",
+      "problemMatcher": "$go"
+    }
+  ]
+}
